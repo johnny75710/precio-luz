@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Comprueba el precio de la luz por horas para hoy"
+    />
+    <meta
+      property="og:image"
+      content="https://www.precioluz.ml/img/header.webp"
+    />
+    <link rel="icon" type="image/x-icon" href="./img/fav.svg" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Precio de la luz</title>
+  </head>
+  <body>
+    <h1>Precio de la luz hoy</h1>
+
+    <div class="card">
+      <h2>Precio ahora <span id="actual" class="hora"></span></h2>
+      <div class="circle" id="circle1"></div>
+    </div>
+
+    <div id="container">
+      <div class="card">
+        <h2>Precio más barato <span id="cheap" class="hora"></span></h2>
+        <div class="circle" id="circle2"></div>
+      </div>
+
+      <div class="card">
+        <h2>Precio más caro <span id="exp" class="hora"></span></h2>
+        <div class="circle" id="circle3"></div>
+      </div>
+    </div>
+
+    <script src="./script/progressbar.min.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/hora.js"></script>
+  </body>
+</html>

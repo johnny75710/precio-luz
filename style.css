@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(./img/bg-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+h1 {
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.384);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 15px;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 10vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.card{
+    margin: auto;
+    padding-bottom: 1.5rem;
+    width: 85%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    color: whitesmoke;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 15px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+
+
+h2{
+    font-weight: 300;
+}
+
+.circle{
+    width: 40%;
+    margin: .7rem 0;
+    font-size: 1.2rem;
+}
+
+
+.progressbar-text{
+    text-align: center;
+}
+.hora{
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.192);
+    width: 50%;
+    margin:auto;
+    border-radius: 25px;
+    margin-top: .2rem;
+}
+
+#actual{
+    width: 100%;
+}
